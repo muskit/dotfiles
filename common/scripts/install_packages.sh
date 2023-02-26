@@ -11,5 +11,5 @@ fi
 
 pacman --noconfirm -Syu
 
-pacman --noconfirm -S libpamac-flatpak-plugin discord vlc fcitx5-qt fcitx5-gtk fcitx5-mozc fcitx5-unikey fcitc5-configtool guake vim code python-pip
+pacman --noconfirm -S libpamac-flatpak-plugin discord vlc obsidian fcitx5-qt fcitx5-gtk fcitx5-mozc fcitx5-unikey fcitc5-configtool guake vim code python-pip
 pamac install --no-confirm noto-fonts-emoji-blob 
