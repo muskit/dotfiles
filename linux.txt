@@ -1,0 +1,70 @@
+
+directories:
+-------------------
+ioquake3 directory:				/opt/quake3
+netctl profiles:				/etc/netctl
+bg images						/usr/share/backgrounds
+icon images						/usr/share/icons
+
+
+commands:
+--------------------
+top								"task manager"
+ssh <ip> -p <port> -l <user>
+df -H							disk usage
+cat <file>						print file's contents
+passwd							change password
+ls -a							"list all (incl .files)"
+chown <user> <file/folder> -R	change ownership of files
+debtap							attempt to convert a .deb to a makepkg-able
+lsblk							list hard disks + partitions
+uname							get system properties (add options for specific info)
+free -h							get RAM usage
+timedatectl set-local-rtc 1		set CMOS clock to local time (Windows compatibility); 0 to disable
+
+
+pacman:
+---------------
+pacman -S			sync (install)
+pacman -Rs			remove pkg + unneeded dependencies
+pacman -Syu			update all packages
+pacman -U			install from file (NOT makepkg)
+pacman -Qs			search for installed pkgs based on name/desc
+pacman -Ss			same as above but searches entire database
+makepkg -si			install AUR
+
+tmux:
+---------------
+ctrl-B				start tmux specific shortcuts
+
+shortcuts:
+a / attach		attach to previously connected session
+d				detach
+$				rename session
+0-9				select window by #
+
+"				split into two panes, top and bottom
+%				split into two panes, left and right
+x				kill current pane
+
+c				create new window
+&				kill current window
+
+{}				relocate pane (L/R)
+
+:resize-pane	use D, U, L, R to resize pane
+
+permissions bits:
+---------------
+d rwx rwx rwx
+
+each group of "rwx" is a 3-bit binary (trial; 0-7).
+each bit corresponds to each letter in the group.
+
+1st group: user owner
+    -rwS: anyone can execute as root w/o passwd
+2nd group: group owner
+3rd group: everybody else
+
+d - this is a directory, not a file
+
