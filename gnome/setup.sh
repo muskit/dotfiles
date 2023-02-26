@@ -16,4 +16,5 @@ SCRIPT_DIR/make_links.sh
 # echo "-------------- Running misc.sh --------------"
 # SCRIPT_DIR/misc.sh
 
-echo Finished setting up system.
+echo "-------- GNOME SETUP COMPLETE --------"
+cat postsetup_notes.txt
