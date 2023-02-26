@@ -16,4 +16,4 @@ echo "------------ Creating autostarts ------------"
 echo "-------------- Running misc.sh --------------"
 ./common/scripts/misc.sh
 
-echo Finished initializing system.
+echo Finished setting up system.

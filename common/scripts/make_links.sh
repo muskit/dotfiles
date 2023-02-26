@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DOTS_FOLDER=$(pwd)/common/dots
+DOTS_FOLDER=$(dirname $(realpath "$0"))/../dots
 
 ln -si $DOTS_FOLDER/.vimrc $HOME/.vimrc
 ln -si $DOTS_FOLDER/fcitx5_config $HOME/.config/fcitx5/config
