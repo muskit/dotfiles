@@ -17,4 +17,4 @@ $SCRIPT_DIR/make_links.sh
 # $SCRIPT_DIR/misc.sh
 
 echo "-------- GNOME SETUP COMPLETE --------"
-cat postsetup_notes.txt
+cat $(dirname $(realpath "$0"))/postsetup_notes.txt

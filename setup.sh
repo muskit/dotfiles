@@ -2,18 +2,21 @@
 
 # TODO: desktop environment argument
 
+SCRIPT_DIR=$(dirname $(realpath "$0"))/scripts
+
 echo "<<<<<<<<<< [ muskit's Manjaro System Initializer ] >>>>>>>>>>"
 
 echo "------------ Installing Packages ------------"
-./common/scripts/install_packages.sh
+$SCRIPT_DIR/common/scripts/install_packages.sh
 
 echo "------ Creating links to config files ------"
-./common/scripts/make_links.sh
+$SCRIPT_DIR/common/scripts/make_links.sh
 
 echo "------------ Creating autostarts ------------"
-./common/scripts/create_autostarts.sh
+$SCRIPT_DIR/common/scripts/create_autostarts.sh
 
 echo "-------------- Running misc.sh --------------"
-./common/scripts/misc.sh
+$SCRIPT_DIR/common/scripts/misc.sh
 
-echo Finished setting up system.
+echo "---------- MANJARO SETUP COMPLETE ----------"
+cat $(dirname $(realpath "$0"))/postsetup_notes.txt
