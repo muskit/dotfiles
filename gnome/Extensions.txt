@@ -1,0 +1,12 @@
+--- INSTALL ---
+Battery threshold
+Dash to Dock
+Dash to Panel
+Night Theme Switcher
+Tray Icons: Reloaded
+Vitals
+
+--- ENABLE ---
+Applications Menu
+User Themes
+Workspace Indicator

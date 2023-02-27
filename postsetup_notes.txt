@@ -1,1 +1,1 @@
-Please reboot the system.
+Make sure to reboot the system.

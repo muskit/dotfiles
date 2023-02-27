@@ -9,5 +9,5 @@ fi
 
 ######### RUNNING AS ROOT #########
 
-pacman --noconfirm -S patch
+pacman --noconfirm -S patch gnome-menus
 pamac install --no-confirm extension-manager
