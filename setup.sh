@@ -2,7 +2,7 @@
 
 # TODO: desktop environment argument
 
-SCRIPT_DIR=$(dirname $(realpath "$0"))/scripts
+SCRIPT_DIR=$(dirname $(realpath "$0"))
 
 echo "<<<<<<<<<< [ muskit's Manjaro System Initializer ] >>>>>>>>>>"
 
