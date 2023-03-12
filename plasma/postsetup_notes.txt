@@ -1,1 +1,3 @@
-Make sure to reboot the system.
+[KWin Script] Sticky Window Snapping: https://store.kde.org/p/1112552/
+
+Finally, make sure to re-login.

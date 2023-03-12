@@ -23,4 +23,4 @@ pacman --noconfirm -S vim python-pip github-cli
 # audio
 yes | pacman -S manjaro-pipewire pipewire-pulse pipewire-alsa easyeffects calf lsp-plugins
 
-pamac install --no-confirm noto-fonts-emoji-blob onedrive-abraunegg onedrivegui indicator-stickynotes visual-studio-code-bin
+pamac install --no-confirm noto-fonts-emoji-blob onedrive-abraunegg onedrivegui indicator-stickynotes visual-studio-code-bin ocs-url
