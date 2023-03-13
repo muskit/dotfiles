@@ -19,7 +19,7 @@ pacman --noconfirm -S libreoffice-fresh discord vlc obsidian spotify-launcher ne
 # system-related packages
 pacman --noconfirm -S libpamac-flatpak-plugin fcitx5-qt fcitx5-gtk fcitx5-mozc fcitx5-unikey fcitx5-configtool tmux guake
 # development packages
-pacman --noconfirm -S vim python-pip github-cli
+pacman --noconfirm -S vim python-pip github-cli patch
 # audio
 yes | pacman -S manjaro-pipewire pipewire-pulse pipewire-alsa easyeffects calf lsp-plugins
 
