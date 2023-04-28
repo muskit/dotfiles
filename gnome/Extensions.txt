@@ -5,6 +5,8 @@ Dash to Panel
 Night Theme Switcher
 Tray Icons: Reloaded
 Vitals
+ddterm
+Top Bar Organizer
 
 --- ENABLE ---
 Applications Menu
