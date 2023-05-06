@@ -1,12 +1,11 @@
 --- INSTALL ---
-Battery threshold
 Dash to Dock
-Dash to Panel
-Night Theme Switcher
 Tray Icons: Reloaded
+Night Theme Switcher
 Vitals
-ddterm
 Top Bar Organizer
+ddterm
+Battery threshold (Thinkpads)
 
 --- ENABLE ---
 Applications Menu
