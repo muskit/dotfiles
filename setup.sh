@@ -4,7 +4,7 @@
 
 SCRIPT_DIR=$(dirname $(realpath "$0"))
 
-echo "<<<<<<<<<< [ muskit's Manjaro System Initializer ] >>>>>>>>>>"
+echo "<<<<<<<<<< [ muskit's Arch System Initializer ] >>>>>>>>>>"
 
 echo "------------ Installing Packages ------------"
 $SCRIPT_DIR/common/scripts/install_packages.sh
@@ -18,5 +18,5 @@ $SCRIPT_DIR/common/scripts/create_autostarts.sh
 echo "-------------- Running misc.sh --------------"
 $SCRIPT_DIR/common/scripts/misc.sh
 
-echo "---------- MANJARO SETUP COMPLETE ----------"
+echo "---------- ARCH SETUP COMPLETE ----------"
 cat $(dirname $(realpath "$0"))/postsetup_notes.txt

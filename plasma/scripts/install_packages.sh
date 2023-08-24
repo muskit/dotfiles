@@ -10,4 +10,5 @@ fi
 ######### RUNNING AS ROOT #########
 
 pacman --noconfirm -S plasma-wayland-session latte-dock
-pamac install --no-confirm koi
+#pamac install --no-confirm koi
+pamac install --sudoloop --noconfirm koi
